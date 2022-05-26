@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Jokes</title>
+</head>
+<body>
+	<h1>Tell a joke!</h1>
+	<p>Jokes from previous visitors:</p>
+<!--- make an object list. Lists the movie, year and genre --->
+
+{% for joke in object_list %}
+    <li>
+    <b>Writer:</b> {{ joke.name }}<br><br>
+    <b><i></b>{{ joke.joke }}</i><br><br>
+	<a href="{{ joke.get_absolute_url }}">Details</a>
+	<a href="{{ joke.get_absolute_url }}/update">Update</a>
+	<a href="{{ joke.get_absolute_url }}/delete">Delete</a>
+	<br><br>
+	</li> 
+{% endfor %}
+
+<!-- Everything else is just to make it look nice and personal testings-->
+<p>
+	<a href="new/">Tell your own</a> <!-- add a button for "new" -->
+</p>
+
+<i>Refreshed at: <span id="date"</span></i></p>
+	
+<script>
+var time = new Date();
+document.getElementById("date").innerHTML = time;
+</script>
+
+</body>
