@@ -7,12 +7,12 @@ Users are not authenticated, and this is made just for testing purposes and lear
 
 Screenshots:
 
-![Image 1](/pw3/res/ss_main.png)
-![Image 2](/pw3/res/ss_details.png)
-![Image 1](/pw3/res/ss_edit_detail.png)
-![Image 2](/pw3/res/ss_delete.png)
-![Image 1](/pw3/res/ss_new.png)
-![Image 2](/pw3/res/ss_new_submitted.png)
+![Image 1](https://github.com/therealhalonen/python_web_service/blob/master/pw3/res/ss_main.png)
+![Image 2](https://github.com/therealhalonen/python_web_service/blob/master/pw3/res/ss_details.png)
+![Image 1](https://github.com/therealhalonen/python_web_service/blob/master/pw3/res/ss_edit_detail.png)
+![Image 2](https://github.com/therealhalonen/python_web_service/blob/master/pw3/res/ss_delete.png)
+![Image 1](https://github.com/therealhalonen/python_web_service/blob/master/pw3/res/ss_new.png)
+![Image 2](https://github.com/therealhalonen/python_web_service/blob/master/pw3/res/ss_new_submitted.png)
 
 **DO THIS ON A VIRTUAL MACHINE OR SOME PC YOU DONT HAVE ANY IMPORTANT STUFF**
 
