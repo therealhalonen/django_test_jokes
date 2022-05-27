@@ -37,7 +37,7 @@ Installation:
 $ mkdir test_folder
 $ cd test_folder
 $ git init
-$ git pull https://github.com/therealhalonen/django_test_jokes
+$ git clone https://github.com/therealhalonen/django_test_jokes
 $ sudo apt-get -y install virtualenv
 $ virtualenv --system-site-packages -p python3 env/
 $ source env/bin/activate
